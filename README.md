@@ -98,7 +98,7 @@ By using this application, users will be able to:
 # Output
 
 <p align="center">
-<img src="https://github.com/samagra44/EduExpert-Intelligent-Learning-Insights/assets/77968722/2c363963-3fbf-4646-aea0-9da2b7ae0d51" width=700 height=300 alt="animated"/>
+<img src="https://github.com/samagra44/EduExpert-Intelligent-Learning-Insights/assets/77968722/8fec0039-1d9b-4c1c-b142-9a7e2f24201b" width=700 height=300 alt="animated"/>
 </p>
 
 ## Future Enhancements
