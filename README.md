@@ -102,8 +102,4 @@ By using this application, users will be able to:
 - **Integration with Course Platforms**: Integrate directly with popular online course platforms for real-time data updates.
 - **Feedback System**: Allow users to provide feedback on recommendations to improve model accuracy.
 
-## License
-
-This project is licensed under the MIT License. See the `Apache License 2.0` file for more details.
-
 ---
