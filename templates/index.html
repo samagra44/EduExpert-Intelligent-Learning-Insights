@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduExpert 📚</title>
+    <link rel="stylesheet" href="static\main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Roboto&display=swap"
+        rel="stylesheet" />
+</head>
+<body style="background-image: linear-gradient(45deg, transparent 0%, transparent 46%,rgba(114, 114, 114,0.06) 46%, rgba(114, 114, 114,0.06) 70%,transparent 70%, transparent 100%),linear-gradient(135deg, transparent 0%, transparent 59%,rgba(114, 114, 114,0.06) 59%, rgba(114, 114, 114,0.06) 91%,transparent 91%, transparent 100%),linear-gradient(0deg, transparent 0%, transparent 15%,rgba(114, 114, 114,0.06) 15%, rgba(114, 114, 114,0.06) 40%,transparent 40%, transparent 100%),linear-gradient(90deg, rgb(0,0,0),rgb(0,0,0)); text-align:center">
+<h1 style="color: #C3FF93; align-items: center; justify-content: center;">EduExpert: Expert Advice for Your Academic Future</h1>
+
+<form action="/index" method="post">
+    <div>
+        <input placeholder="Is Paid? True / False" list="paid_free" class="input" name="paid" required type="text">
+        <datalist id="paid_free">
+          <option>True</option>
+          <option>False</option>
+        </datalist>
+        <i></i>
+    </div><br>
+
+    <div>
+      <input placeholder="Enter price of course" id="interests" class="input" name="price" required type="text">
+      <i></i>
+    </div><br>
+
+    <div>
+      <input placeholder="Enter number of subscribers" id="interests" class="input" name="subscriber" required  type="text">
+      <i></i>
+    </div><br>
+
+    <div>
+      <input placeholder="Enter number of reviews" id="interests" class="input" name="reviews" required  type="text">
+      <i></i>
+    </div><br>
+
+    <div>
+      <input placeholder="Enter number of lectures" id="interests" class="input" name="lecture" required  type="text">
+      <i></i>
+    </div><br>
+
+    <div>
+      <input placeholder="Enter your level" list="any_levl" class="input" name="level" required  type="text">
+      <datalist id="any_levl">
+        <option>All Levels</option>
+        <option>Beginner Level</option>
+        <option>Intermediate Level</option>
+        <option>Expert Level</option>
+      </datalist>
+      <i></i>
+    </div><br>
+
+    <div>
+      <input placeholder="Enter course duration" class="input" name="duration" required  type="text">
+      <i></i>
+    </div><br>
+
+    <div>
+      <input placeholder="Enter your field name" class="input" name="subject" required type="text">
+      <i></i>
+    </div><br>
+    
+    <div>
+      <input class="button1" type="submit" value="GET MY COURSE ➡️">
+    </div>
+    </form>
+{% if user_query %}
+    <div class="output-box">
+    <h2>Suggested Course Name:</h2>
+    <p>{{ generated_output }}</p>
+    </div>
+{% endif %}
+</body>
+</html>
+
+
+
+
