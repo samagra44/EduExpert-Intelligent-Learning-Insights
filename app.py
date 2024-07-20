@@ -5,15 +5,15 @@ import csv
 
 app = Flask(__name__)
 
-# Set the Gradient environment variables
-GRADIENT_ACCESS_TOKEN = "crU9EfAP4C7Eikc4GHGAnMlM75S18KHW"
-GRADIENT_WORKSPACE_ID = "e7fe2f17-3bac-4123-8bd7-2f5dccde400e_workspace"
+# # Set the Gradient environment variables
+# GRADIENT_ACCESS_TOKEN = "Wq3gZSKDDTcNOjHjEPqNYsoGWKpWNsyh"
+# GRADIENT_WORKSPACE_ID = "49f8e2c1-9737-417a-8a95-dd42dd92a710_workspace"
 
 # Define the Dataset Path
 course_dataset_path = "course_data.csv"
 
 # Initialize the Gradient
-gradient = Gradient(access_token=GRADIENT_ACCESS_TOKEN, workspace_id=GRADIENT_WORKSPACE_ID)
+gradient = Gradient(access_token="Wq3gZSKDDTcNOjHjEPqNYsoGWKpWNsyh", workspace_id="49f8e2c1-9737-417a-8a95-dd42dd92a710_workspace")
 
 formatted_data = []
 with open(course_dataset_path, encoding='utf-8-sig') as f:
