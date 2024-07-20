@@ -95,6 +95,12 @@ By using this application, users will be able to:
 - **User Interface**: Simple and intuitive user interface built with HTML and rendered using Flask.
 - **Security**: Environment variables are used to securely manage sensitive information like API tokens and workspace IDs.
 
+# Output
+
+<p align="center">
+<img src="https://github.com/samagra44/EduExpert-Intelligent-Learning-Insights/assets/77968722/8fec0039-1d9b-4c1c-b142-9a7e2f24201b" width=700 height=300 alt="animated"/>
+</p>
+
 ## Future Enhancements
 
 - **Advanced Filtering Options**: Add more filtering criteria such as course ratings, language, and instructor experience.
